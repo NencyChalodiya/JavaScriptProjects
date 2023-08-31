@@ -1,0 +1,47 @@
+
+*
+{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root
+{
+    --primary-text-color:#183b56;
+    --secondary-text-color:#577592;
+    --accent-color:#2294ed;
+    --accent-color-dark:#1d69a3;
+    --padding-inline-section:20px; 
+}
+
+body{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color:var(--primary-text-color);
+ }
+ h1{
+    font-size: 3rem;
+ }
+ h2{
+    font-size: 2rem;
+ }
+ p
+ {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 1.25rem;
+    color: var(--secondary-text-color);
+    line-height: 1.8rem;
+ }
+
+.small-bold-text
+{
+    font-size: 1rem;
+    font-weight: 700;
+    
+}
+
+.container
+{
+    max-width: 1180px;
+    margin-inline: auto;
+}
